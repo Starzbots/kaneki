@@ -82,7 +82,7 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 *Hello {} !*
-😈 HI'm Zaid, An anime - Themed advanced telegram Group management with lots of features.
+😈 HI'm Kaneki, An anime - Themed advanced telegram Group management with lots of features.
 ───────────────────────
 × *Uptime:* `{}`
 × `{}` *users, across* `{}` *chats.*
@@ -95,14 +95,14 @@ PM_START_TEXT = """
 buttons = [
     [
         InlineKeyboardButton(
-            text="ᴀᴅᴅ ᴍᴇ ᴇʟꜱᴇ ᴜ ɢᴀʏ🔥", url="t.me/Zaid2_Robot?startgroup=true"),
+            text="ᴀᴅᴅ ᴍᴇ ᴇʟꜱᴇ ᴜ ɢᴀʏ🔥", url="t.me/Kenki_ro_bot?startgroup=true"),
     ],
      [
         InlineKeyboardButton(text="ʙᴀꜱɪᴄ ɢᴜɪᴅᴇ ", callback_data="emiko_"),
      ],
      [  
-        InlineKeyboardButton(text="ꜱᴜᴘᴘᴏʀᴛ ⚒️", url="https://t.me/Superior_Support"),
-        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇꜱ 📢", url="https://t.me/Superior_Bots"),
+        InlineKeyboardButton(text="ꜱᴜᴘᴘᴏʀᴛ ⚒️", url="https://t.me/Starz_Support"),
+        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇꜱ 📢", url="https://t.me/Starz_Bots"),
     ], 
 
     [
@@ -386,7 +386,7 @@ def emiko_about_callback(update, context):
                     InlineKeyboardButton(text="Developers 🎁", callback_data="emiko_credit"),
                  ],
                  [
-                    InlineKeyboardButton(text="Donate 💝", url=f"t.me/godfatherakkii"),
+                    InlineKeyboardButton(text="Donate 💝", url=f"t.me/Rockstar_xdd"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="emiko_back"),
@@ -429,13 +429,13 @@ def emiko_about_callback(update, context):
     elif query.data == "emiko_support":
         query.message.edit_text(
             text="*✨ support chats*"
-            "\nJoin My Support Group/Channel for see or report a problem on Zaid.",
+            "\nJoin My Support Group/Channel for see or report a problem on Keneki.",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Support", url="t.me/Superior_Suppport"),
-                    InlineKeyboardButton(text="Updates", url="https://t.me/Superior_bots"),
+                    InlineKeyboardButton(text="Support", url="t.me/starz_support"),
+                    InlineKeyboardButton(text="Updates", url="https://t.me/starz_bots"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="emiko_"),
@@ -454,8 +454,8 @@ def emiko_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Zaid", url="t.me/Timesisnotwaiting"),
-                    InlineKeyboardButton(text="Aman", url="t.me/Shubhanshutya"),
+                    InlineKeyboardButton(text="Rockstar", url="t.me/Rockstar_xdd"),
+                    InlineKeyboardButton(text="Stargirl", url="t.me/Itzstargirl"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="emiko_"),
